@@ -1,7 +1,7 @@
 {
 	"name": "innoweb/silverstripe-fluent-inline-language",
 	"description": "Allow inline language change for Accessibility in CMS WYSIWYG editor",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "WYSIWYG", "fluent", "language", "inline"],
 	"homepage": "http://github.com/xini/silverstripe-fluent-inline-language",
