@@ -1,0 +1,11 @@
+---
+name: fluentinlinelanguage
+---
+
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - Innoweb\FluentInlineLanguage\Extensions\InlineLanguageLeftAndMainExtension
+
+SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
+  editor_css:
+    - 'innoweb/silverstripe-fluent-inline-language: client/dist/css/tinymce-inline-language.css'
