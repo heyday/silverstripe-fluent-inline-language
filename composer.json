@@ -3,7 +3,13 @@
 	"description": "Allow inline language change for Accessibility in CMS WYSIWYG editor",
 	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
-	"keywords": ["silverstripe", "WYSIWYG", "fluent", "language", "inline"],
+	"keywords": [
+        "silverstripe",
+        "WYSIWYG",
+        "fluent",
+        "language",
+        "inline"
+    ],
 	"homepage": "http://github.com/xini/silverstripe-fluent-inline-language",
 	"authors": [{
 		"name": "Florian Thoma",
@@ -11,7 +17,7 @@
 	}],
 	"require": {
 		"silverstripe/cms": "^4 || ^5",
-		"tractorcow/silverstripe-fluent": "^4"
+		"tractorcow/silverstripe-fluent": "^4 || ^7"
 	},
 	"suggest": {
 		"innoweb/silverstripe-fluent-rtl-support": "Adds RTL support to CMS fields of sites that use fluent."
