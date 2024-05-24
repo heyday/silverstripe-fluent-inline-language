@@ -1,4 +1,5 @@
 <?php
+
 namespace Innoweb\FluentInlineLanguage\Extensions;
 
 use SilverStripe\Admin\LeftAndMainExtension;

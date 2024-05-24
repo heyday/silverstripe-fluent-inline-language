@@ -18,8 +18,8 @@ $config->enablePlugins([
 $locales = Locale::getCached()->toArray();
 if ($locales && count($locales)) {
     $config->addButtonsToLine(1, '|');
-    foreach($locales as $locale) {
-        $config->addButtonsToLine(1, 'tinymce-inline-language-'.$locale->Locale);
+    foreach ($locales as $locale) {
+        $config->addButtonsToLine(1, 'tinymce-inline-language-' . $locale->Locale);
     }
     $config->addButtonsToLine(1, '|');
 }
@@ -29,4 +29,3 @@ $config->setOption(
     'extended_valid_elements',
     $config->getOption('extended_valid_elements') . ',-span[class|align|style|dir|lang]'
 );
-
