@@ -1,5 +1,5 @@
 {
-	"name": "innoweb/silverstripe-fluent-inline-language",
+	"name": "heyday/silverstripe-fluent-inline-language",
 	"description": "Allow inline language change for Accessibility in CMS WYSIWYG editor",
 	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
@@ -10,7 +10,7 @@
 		"homepage": "http://www.innoweb.com.au"
 	}],
 	"require": {
-		"silverstripe/cms": "^4",
+		"silverstripe/cms": "^4 || ^5",
 		"tractorcow/silverstripe-fluent": "^4"
 	},
 	"suggest": {
